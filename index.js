@@ -104,7 +104,6 @@ let text = gsap.timeline({
     start:"0% center",
     end:"10% center",
     scroller:"#main-shit",
-    markers:true,
     scrub:1,
   }
 });
@@ -123,7 +122,6 @@ let ter = gsap.timeline({
     start:"top 50%",
     end:"bottom center",
     scroller:"#main-shit",
-    markers:true,
     scrub:1,
   }
 });
@@ -137,7 +135,6 @@ let box = gsap.timeline({
   scrollTrigger:{
     trigger:".g-shit",
     scroller:"#main-shit",
-    markers:true,
     start:"top 90%",
     end:"100% 90%",
     scrub:1,
@@ -159,7 +156,6 @@ let box1 = gsap.timeline({
   scrollTrigger:{
     trigger:".g-shit",
     scroller:"#main-shit",
-    markers:true,
     start:"170% 5%",
     end:"250% 5%",
     scrub:1,
@@ -179,7 +175,6 @@ gsap.timeline({
     scroller:"#main-shit",
     pin: ".g-shit",
     start: "top 0%",
-    markers:true,
     end:"162% center",
   }});
 
@@ -193,7 +188,6 @@ const tlo = gsap.timeline({
       end: "bottom 10%",
       scrub: 0.5,
       scroller:"#main-shit",
-      markers:true,
     },
   })
   .set(
