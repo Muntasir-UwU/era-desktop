@@ -186,7 +186,7 @@ body{
 
 .banner{
   width: 100%;
-  background-image: linear-gradient(rgb(0, 0, 0, 0.8),rgb(0, 0, 0, 0.8)),url('/Image/vecteezy_topographic-background-and-texture-abstraction-with-place_16828112.jpg');
+  background-image: linear-gradient(rgb(0, 0, 0, 0.8),rgb(0, 0, 0, 0.8)),url('Image/vecteezy_topographic-background-and-texture-abstraction-with-place_16828112.jpg');
   height: 645px;
   display: flex;
   justify-content: center;
@@ -405,126 +405,22 @@ body{
 .box .b1{
   width: 155px;
   height: 115px;
-  background: url("/Image/PettingDoodle.svg");
+  background: url("Image/PettingDoodle.svg");
   background-repeat: no-repeat;
 }
 
 .box .b2{
   background-repeat: no-repeat;
-  background: url("/Image/Illustrations_groovy.svg");  
+  background: url("Image/Illustrations_groovy.svg");  
   width: 155px;
   height: 115px;
 }
 
 .box .b3{
   background-repeat: no-repeat;
-  background: url("/Image/Character_reading.svg");  
+  background: url("Image/Character_reading.svg");  
   width: 155px;
   height: 115px;
-}
-
-.ano-bun{
-  width: 100%;
-  height: 150vh;
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  background: #040F16;
-}
-
-.mode{
-  width: 90%;
-  height: 100%;
-  background: transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 55px;
-}
-.mode .mh{
-  width: 100%;
-  text-align: center;
-  font-size: 60px;
-  font-family: "morva";
-  letter-spacing: 5px;
-  color: #D9F7FA;
-}
-.moderate{
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-.moderate .moderate-box{
-  width: 270px;
-  height: 350px;
-  display: flex;
-  border-style: solid;
-  border-color:  #1B998B;
-  justify-content: center;
-  align-items: center;
-}
-.moderate .moderate-box h5{
-  font-size: 35px;
-  width: 100%;
-  height: 100%;
-  background: white;
-  letter-spacing: 1px;
-  font-family: "Saade Sans";
-  text-transform: uppercase;
-  display: none;
-}
-.moderate .moderate-box.b1{
-  background-image: url("/Image/fff.jpg");
-  background-size: cover;
-}
-.moderate .moderate-box:hover.b1{
-  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("/Image/fff.jpg");
-  background-size: cover;
-}
-.moderate .moderate-box.b2{
-  background-image: url("/Image/futurestic\ anime\ themed\ robot\ facing\ front\ only\ half\ of\ the\ body.jpg");
-  background-size: cover;
-}
-.moderate .moderate-box:hover.b2{
-  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("/Image/futurestic\ anime\ themed\ robot\ facing\ front\ only\ half\ of\ the\ body.jpg");
-  background-size: cover;
-}
-
-.moderate .moderate-box.b3{
-  background-image: url("/Image/g.jpg");
-  background-size: cover;
-}
-.moderate .moderate-box:hover.b3{
-  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("/Image/g.jpg");
-  background-size: cover;
-}
-
-.moderate .moderate-box.b4{
-  background-image: url("/Image/ffddd.jpg");
-  background-size: cover;
-}
-.moderate .moderate-box:hover.b4{
-  background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url("/Image/ffddd.jpg");
-  background-size: cover;
-}
-
-.moderate .moderate-box:hover h5{
-  display: contents;
-  color: white;
-  animation: tex 0.5s ease-in ;
-}
-@keyframes tex {
-  from{
-      font-size: 30px;
-  }
-  to{
-      font-size: 35px;
-  }
 }
 .g-shit{
   width: 100%;
@@ -538,7 +434,7 @@ body{
   width: 92%;
   height: 99%;
   border-radius: 20px;
-  background: linear-gradient(#080708b7, #080708b7), url("/Image/Blackkjkj.svg");
+  background: linear-gradient(#080708b7, #080708b7), url("Image/Blackkjkj.svg");
   display: flex;
   background-repeat: no-repeat;
   justify-content: center;
@@ -582,7 +478,7 @@ body{
   width: 30%;
   border-radius: 25px;
   height: 400px;
-  background-image: url("/Image/_25-01-19_23-01-41-949.jpg");
+  background-image: url("Image/_25-01-19_23-01-41-949.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
